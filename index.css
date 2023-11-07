@@ -1,0 +1,107 @@
+*{
+    font-family: 'Open Sans';
+    font-size: 13px;
+}
+.containerMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+.right img{
+    width: 25px;
+}
+.right button{
+    background-color: rgb(98, 93, 255);
+    color: white;
+    border: 0;border-radius: 5%;
+    padding-bottom: 7px;padding-top: 6px;
+    padding-right: 13px;padding-left: 13px;
+}
+.left{
+    padding-left: 10px;
+}
+.left *, .right * {
+    padding: 5px;
+    color: black;text-decoration: none;
+}
+.googleLogo img{
+    width: 280px;
+}
+.googleLogo{
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5%;
+}
+.searchBar{
+    display: flex;
+    justify-content: center;
+}
+.searchBar input {
+    display: flex;
+    width: 560px;
+    padding-left: 45px;padding-right: 78px;
+    padding-top: 16px;padding-bottom: 16px;
+    margin-top: 20px;
+    border: rgb(205, 202, 202) 2px solid;
+    border-radius: 50px;
+    background-image: 
+    url(https://cdn3.iconfinder.com/data/icons/feather-5/24/search-512.png), 
+    url(https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-25-512.png),
+    url(https://upload.wikimedia.org/wikipedia/commons/f/f9/Google_Lens_-_new_logo.png?20230608184235);
+    background-size: 19px, 28px, 24px;
+    background-repeat: no-repeat;
+    background-position: 15px, 485px, 520px;
+}
+.searchBar input:hover {
+    background-color: rgb(236, 231, 231);
+    border: 2px rgb(236, 231, 231) solid;
+}
+.searchBar input:focus {
+    border: 2px rgb(236, 231, 231) solid;
+    background-color: rgb(236, 231, 231);
+    outline: none;
+}
+.googleButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#buttonleft {
+    margin-right: 10px; 
+}
+#buttonright {
+    margin-left: 10px;
+}
+#buttonleft *, #buttonright *{
+    margin-top: 30px;
+    padding-left: 25px;padding-right: 25px;
+    padding-top: 10px;padding-bottom: 10px;
+    border: none;border-radius: 4px;
+    font-size: 13px;
+    background-color: rgb(232, 230, 230);color: rgb(100, 99, 99);
+    overflow: hidden;
+}
+#otherlanguage {
+    display: flex;
+    justify-content: center;
+}
+.bottomtext {
+    margin-top: 15%;
+    background-color: rgb(232, 230, 230);
+    padding-top: 20px;padding-bottom: 20px;
+    padding-left: 80px;padding-right: 80px;
+}
+.bottomtext2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: space-around;
+    border-top: 2px rgb(168, 166, 166) solid;
+}
+
+
